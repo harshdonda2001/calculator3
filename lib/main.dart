@@ -1,4 +1,5 @@
 import 'package:calculator/homescreen.dart';
+import 'package:calculator/homescreen2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SimpleCalc(),
+      home: HomePage(),
     );
   }
 }
